@@ -1,0 +1,104 @@
+/*mobile device screen size*/
+/*max width was 640*/
+@media screen and (max-width: 850px) {
+  /*header mobile css*/
+  .icon-menu{
+    float: left;
+    padding-left: 25px;
+    cursor: pointer;
+  }
+  .name-link{
+    float: none;
+    font-size: 12px;
+  }
+	.header-section ul{  display: none;}
+  .profile-picture{
+    height: 100px;
+    width: 100px;
+  }
+  .small-intro{ margin-left: 40px;}
+  .salute{ font-size: 16px;}
+  .salute-intro{  font-size: 10px;}
+  .about-bubble, .skills-bubble, .contact-bubble{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+  }
+  .menu-box{  height: 20%;}
+  .about-bubble span, .skills-bubble span, .contact-bubble span{  font-size: 8px;}
+  .about-bubble{  left: 25%;}
+  .skills-bubble{ left: 45%;}
+  .contact-bubble{  left: 65%;}
+
+  /*about section mobile css*/
+  .intro-box{ line-height: 12px;}
+  .intro-box p{ font-size: 6px;}
+  .gallery img{
+    height: 50px;
+    width: 50px;
+  }
+
+  /*lighbox images mobile css*/
+  .overlay img{
+    margin-top: 25%;
+    width: 200px;
+    height: 200px;
+  }
+  .overlay p{ font-size: 10px;}
+
+  /*skill section mobile css*/
+  .skills-box{  font-size: 6px;}
+  .skill-level{ padding-right: 15%;}
+  .skill-level li{  padding-left: 16%;}
+  .graph-language{  width: 90%;}
+  .mobile-cad{  width: 80% !important;} /*overrides the html style width*/
+  .mobile-solid{  width: 75% !important;} /*overrides the html style width*/
+  .mobile-android{}
+  .mobile-git{}
+
+  /*contact section mobile css*/
+  .goodbye-box p{ font-size: 12px;}
+
+  /*footer section mobile css*/
+  .footer-section p{  font-size: 8px;}
+}
+
+/*nexus 7 and blackberry notebook mobile adjustments*/
+/*@media screen and (min-width: 460px) and (max-width: 960px) {
+  .icon-menu{
+    float: left;
+    padding-left: 25px;
+    cursor: pointer;
+  }
+}*/
+
+/*min width was 960*/
+@media screen and (min-width: 850px) and (max-width: 1280px) {
+  /*home section*/
+  .profile-picture{
+    height: 150px;
+    width: 150px;
+  }
+  .small-intro{ margin-left: 40px;}
+  .salute{ font-size: 16px;}
+  .salute-intro{  font-size: 10px;}
+  .about-bubble, .skills-bubble, .contact-bubble{
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+  }
+  .menu-box{  height: 20%;}
+  .about-bubble span, .skills-bubble span, .contact-bubble span{  font-size: 8px;}
+
+  /*about section*/
+  .intro-box p{ font-size: 8px;}
+  .skills-box{  font-size: 8px;}
+
+}
+
+
+/*turn off all icons and styling on mobile device view*/
+/*min width was 460*/
+@media screen and (min-width: 850px) {
+	.icon-menu{  display: none;}
+}

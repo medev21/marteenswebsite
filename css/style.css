@@ -1,0 +1,257 @@
+/*reset*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html,body, .container{
+  font-family: 'Rock Salt', cursive, sans-serif;
+  font: 0.85em;
+  line-height: 1;
+  margin: 0;
+  height: 100%;
+}
+hr{ border: 1px solid black;}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*header style */
+.header-section{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  line-height: 55px;
+}
+.name-link{
+  float: left;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.header-section ul{ float: right;}
+.header-section ul li{
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  padding-right: 30px;
+}
+
+/*mobile bar css*/
+.mobile-nav{
+  position: absolute;
+  top: 10%;
+  left: -30%;
+  width: 30%;
+  height: 80%;
+  font-size: 14px;
+}
+.mobile-nav ul{ list-style: none;}
+.mobile-nav li{
+  padding: 30px 0 0 20px;
+}
+
+/*home, about, skills, contact position set up*/
+.home-section, .about-section, .skills-section, .contact-section{
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  top: 10%;
+}
+
+/*home section style*/
+.profile-picture{
+  float: left;
+  margin-top: 6%;
+  margin-left: 30%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+.small-intro{
+  float: left;
+  margin-top: 6%;
+  margin-left: 50px;
+  height: 50%;
+  width: 275px;
+}
+.salute{
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+.salute-intro{  line-height: 1.5em;}
+.menu-box{
+  clear: both;
+  height: 35% ;
+  width: 100%;
+}
+.about-bubble, .skills-bubble, .contact-bubble{
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  background: #999;
+  height: 100px;
+  width: 100px;
+  line-height: 100px; /*add this to center the text inside the div*/
+  border-radius: 50%;
+}
+.about-bubble span, .skills-bubble span, .contact-bubble span{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.about-bubble{
+  background: pink;
+  cursor: pointer;
+  left: 35%;
+}
+.skills-bubble{
+  background: lightblue;
+  cursor: pointer;
+  left: 45%;
+}
+.contact-bubble{
+  background: red;
+  cursor: pointer;
+  left: 55%;
+}
+
+/*about section*/
+.intro-box{
+  width: 50%;
+  height: 100%;
+  /*margin-left: 25%*/
+  float: left;
+  text-align: center;
+  line-height: normal;
+}
+.intro-box p{
+  /*padding-left: 30px;*/
+  padding: 10% 8% 0 8%;
+  font-size: 12px;
+}
+.gallery-box{
+  height: 100%;
+  width: 50%;
+  float: right;
+  line-height: normal;
+}
+.gallery{
+  padding: 10% 30% 0 10%;
+  text-align: center;
+}
+.gallery li{
+  display: inline-block;
+  padding-left: 20px;
+}
+.gallery img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+/*skills section*/
+.skills-box{
+  height: 100%;
+  width: 90%;
+  margin-left: 10%;
+}
+.skills-box h3{
+  /*padding-top: 10px;*/
+  padding-bottom: 10px;
+}
+.skill-level{
+	/* display: block;
+	float: right; */
+	text-align: right;
+	padding-right: 20%;
+}
+.skill-level li {
+	display: inline;
+	list-style: none;
+	padding-left: 24%;
+}
+.graph-container{
+	float: left;
+	width: 100%;
+  padding-bottom: 10px;
+}
+.graph-language{
+	width: 80%;
+	float: left;
+	border-bottom: 1px solid #888;
+}
+.graph-language li{
+	position: relative;
+	list-style: none;
+	border-top: 1px solid #888;
+	clear: both;
+}
+.language-type{
+	display: block;
+	position: relative;
+	padding: 10px;
+	background-color: #66ee99;
+	font-weight: bold;
+	float: left;
+}
+.percentage-level{  float: right;}
+.skill-container h3{  clear: both;}
+
+/*contact section*/
+.goodbye-box{
+  float: left;
+  margin-top: 8%;
+  margin-left: 50px;
+  width: 200px;
+}
+.goodbye-box p{ line-height: normal;}
+.goodbye-box ul{
+  list-style: none;
+  padding-top: 20px;
+}
+.goodbye-box li{
+  display: inline-block;
+  padding-right: 20px;
+}
+
+/*footer section*/
+.footer-section{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 10%;
+  text-align: center;
+}
+.footer-section p{  padding-top: 20px;}
+
+/*slide menu*/
+.slide{
+  left: 0;
+  display: none;
+}
+.active-slide{  display: block;}
+
+/*overlay setup*/
+.overlay {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+.overlay img{
+  margin-top: 10%;
+  width: 400px;
+  height: 400px;
+}
+.overlay p{
+  padding-top: 20px;
+  color: white;
+}
