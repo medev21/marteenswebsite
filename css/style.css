@@ -228,6 +228,9 @@ a{
 }
 .footer-section p{  padding-top: 20px;}
 
+.strikethrough{
+  text-decoration: line-through;
+}
 /*slide menu*/
 .slide{
   left: 0;
