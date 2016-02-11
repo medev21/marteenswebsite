@@ -6,7 +6,7 @@
 }
 html,body, .container{
   font-family: 'Rock Salt', cursive, sans-serif;
-  font: 0.85em;
+  font-size: 0.95em;
   line-height: 1;
   margin: 0;
   height: 100%;
@@ -131,7 +131,7 @@ a{
 .intro-box p{
   /*padding-left: 30px;*/
   padding: 10% 8% 0 8%;
-  font-size: 12px;
+  font-size: 10px;
 }
 .gallery-box{
   height: 100%;
